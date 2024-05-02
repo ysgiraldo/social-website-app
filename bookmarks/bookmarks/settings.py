@@ -131,3 +131,8 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# The URL where the media files uploaded by users will be stored
+MEDIA_URL = 'media/'
+# The directory where the media files uploaded by users will be stored
+MEDIA_ROOT = BASE_DIR / 'media'
